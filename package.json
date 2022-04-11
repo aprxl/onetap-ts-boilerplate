@@ -1,0 +1,22 @@
+{
+  "name": "onetap-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "watch": "rollup -c --watch",
+    "build": "rollup -c"
+  },
+  "keywords": ["onetap"],
+  "author": "aprxl",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "eslint": "^8.13.0",
+    "rollup": "^2.70.1"
+  },
+  "dependencies": {
+    "@rollup/plugin-typescript": "^8.3.1"
+  }
+}

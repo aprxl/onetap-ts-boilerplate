@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    "target": "es5",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "esModuleInterop": true,
+    "moduleResolution": "classic"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
