@@ -9,7 +9,8 @@ export default {
   input: 'src/index.ts',
   output: {
     file: `dist/${FILENAME}.js`,
-    format: 'cjs'
+    format: 'cjs',
+    strict: false
   },
   plugins: [
     typescript(), 
